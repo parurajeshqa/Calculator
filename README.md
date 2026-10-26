@@ -1,5 +1,6 @@
 Java Calculator
 📌 Project Description
+
 This is a simple console-based calculator application developed using Java. It allows users to perform basic arithmetic operations on two numbers: addition, subtraction, multiplication, and division.
 
 The program takes input from the user, displays a menu of available operations, and prints the calculated result.
@@ -17,12 +18,12 @@ Programming Language: Java
 Input Handling: Scanner class
 IDE: Any Java-supported IDE, such as Eclipse, IntelliJ IDEA, or VS Code
 📂 Project Structure
-
 text
 Calculator-Project/
 └── src/
     └── day3/
         └── Calculator.java
+
 🚀 How to Run
 Prerequisites
 Install the Java Development Kit (JDK).
@@ -35,14 +36,14 @@ Run the Calculator class.
 Enter two numbers when prompted.
 Choose an operation by entering a number from 1 to 4.
 Run Using the Terminal
-Navigate to the directory containing the day3 folder and execute:
 
+Navigate to the directory containing the day3 folder and execute:
 
 bash
 javac day3/Calculator.java
 java day3.Calculator
-💻 Example Output
 
+💻 Example Output
 text
 Enter the first number
 10
@@ -58,8 +59,8 @@ Choose an operation
 1
 1
 Result: 15.0
-➕ Available Operations
 
+➕ Available Operations
 Choice	Operation	Example
 1	Addition	10 + 5 = 15
 2	Subtraction	10 - 5 = 5
@@ -69,6 +70,7 @@ Choice	Operation	Example
 Division by zero: Displays an error message if the second number is zero and the user selects division.
 Invalid choice: Displays Invalid Choice if the user enters an operation number other than 1, 2, 3, or 4.
 🎯 Learning Objectives
+
 This project demonstrates the use of fundamental Java concepts, including:
 
 Variables and data types
@@ -83,7 +85,9 @@ Add input validation for non-numeric values.
 Improve the user interface.
 Add support for additional mathematical operations.
 👨‍💻 Author
+
 Created as a beginner-level Java programming project to practice basic programming concepts and arithmetic operations.
 
 📄 License
+
 This project is open for learning and educational purposes.
